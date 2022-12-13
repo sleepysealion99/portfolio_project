@@ -1,13 +1,18 @@
 import './project2.css';
-import react,  { useEffect, useState } from 'react';
-// import { Nav, NavLink, NavMenu } from "./NavbarElements";
-// import {Routes, Route, useNavigate, Link} from 'react-router-dom';
-import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-// import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import frame_1 from '../../images/project2/frame-0001.jpg';
+import frame_2 from '../../images/project2/frame-0002.jpg';
+import frame_3 from '../../images/project2/frame-0003.jpg';
+import frame_4 from '../../images/project2/frame-0004.jpg';
+import frame_5 from '../../images/project2/frame-0005.jpg';
+import frame_6 from '../../images/project2/frame-0006.jpg';
+import frame_7 from '../../images/project2/frame-0007.jpg';
+import frame_8 from '../../images/project2/frame-0008.jpg';
+import EMPATHY1 from '../../images/project2/EMPATHY1.png';
+import EMPATHY2 from '../../images/project2/EMPATHY2.png';
+import sketch from '../../images/project2/sketch.png';
 
 export default function Project2() {
 
@@ -49,7 +54,7 @@ export default function Project2() {
             &emsp;People think kiosk is fast.<br></br>
             </div>
             <figure>
-                <img src='/project2/sketch.png' class="design"></img>
+                <img src={sketch} class="design"></img>
                 <figcaption>Sketch of the station kiosk interface</figcaption>
             </figure>
             </div>
@@ -60,7 +65,7 @@ export default function Project2() {
             &emsp;We can draw some conclusions from the observations and interview answers. According to my analysis, there are basically two personas for this interface.<br></br><br></br>
             &emsp;The first persona descripts someone named Mary. She has bought a ticket online and wants to use the station kiosk to print the ticket and the receipt.<br></br><br></br>
             <figure>
-                <img src='/project2/EMPATHY1.png' class="design"></img>
+                <img src={EMPATHY1} class="design"></img>
                 <figcaption>Empathy Map for Mary</figcaption>
             </figure>
                 <div className="problemTitle">Problems they met:</div>
@@ -73,7 +78,7 @@ export default function Project2() {
                 The persona lists the problems they met and the questions they ask.<br></br><br></br>
                 &emsp;The second persona descripts someone named David. He just decides to take the train so he comes to the station to buy the ticket. He doesn't want to interact with people or think the line to the travel agents is too line. So he comes to the station kiosk to buy a ticket.<br></br><br></br>
             <figure>
-                <img src='/project2/EMPATHY2.png' class="design"></img>
+                <img src={EMPATHY2} class="design"></img>
                 <figcaption>Empathy Map for David</figcaption>
             </figure>
                 <div className="problemTitle">Problems they met:</div>
@@ -91,36 +96,36 @@ export default function Project2() {
                 <div className="storyboard">
                 &emsp;I draw a series of storyboards based on the empathy map of David. These storyboards help me narrate the story happened on people like David's persona.<br></br>
             <figure>
-                    <img src='/project2/frame-0001.jpg' class="design"></img>
+                    <img src={frame_1} class="design"></img>
                     <figcaption>1. The weather is so great. Why not going to Boston to eat something delicious and take a shopping?
                   David decides to go to the Amtrak station now!</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0002.jpg' class="design"></img>
+                <img src={frame_2} class="design"></img>
                     <figcaption>2. There are so many people in line. David doesn't want to waste time to buy a ticket through the travel agents. David decides to go to the kiosk to buy the ticket.</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0003.jpg' class="design"></img>
+                <img src={frame_3} class="design"></img>
                     <figcaption>3. It is the first time for David to use a kiosk. He is prompted to tap the "touch to begin" button to start buying.</figcaption>
                 </figure>
                 <figure>
-                    <img src='/project2/frame-0004.jpg' class="design"></img>
+                    <img src={frame_4} class="design"></img>
                     <figcaption>4. There are many different types of tickets provided. David needs to decide which type of ticket to choose. He wants to come back to providence at night so he chooses the round trip ticket.</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0005.jpg' class="design"></img>
+                <img src={frame_5} class="design"></img>
                     <figcaption>5. David is trying to find his destination station in the list. There are so many stations to choose. He wants to find the right one as soon as possible since there are people waiting for him in the line. Finally he finds it in a rush.</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0006.jpg' class="design"></img>
+                <img src={frame_6} class="design"></img>
                     <figcaption>6. There are still choices to make. David is not sure about the differences betweeen these types of seats. He asked the man behind him for suggestions. He chooses the cheapest one at last.</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0007.jpg' class="design"></img>
+                <img src={frame_7} class="design"></img>
                     <figcaption>7. David chooses to pay with a card. But he did not find the position to insert the card since it is his first time using the kiosk. He feels a little bit awkward looking for somewhere to insert his card in.</figcaption>
                 </figure>
                 <figure>
-                <img src='/project2/frame-0008.jpg' class="design"></img>
+                <img src={frame_8} class="design"></img>
                     <figcaption>8. After the payment is made, David gets his ticket from the kiosk successfully.</figcaption>
                 </figure>
                 </div>

@@ -8,32 +8,36 @@ import { NavLink, Link } from "react-router-dom";
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
-import Project1 from '../project1/project1';
+import project1 from "../../images/project1.png";
+import project2 from "../../images/project2.png";
+import project3 from "../../images/project3.png";
+import project4 from "../../images/project4.png";
+import pic1 from "../../images/pic1.png"
+import pic2 from "../../images/pic2.png"
+import pic3 from "../../images/pic3.png"
+import pic4 from "../../images/pic4.png"
+
 
 const projectArr = [
+    {
+        name: 'Persona for station kiosk',
+        img: pic1,
+        path: "/projects/bakey_shop"
+    },
   {
-      name: '007 Museum',
-      img: "/project1.png",
-      url: "https://sleepysealion99.github.io/redesign/",
+      name: '007 Museum website redesign',
+      img: pic2,
       path: '/projects/museum_redesign'
   },
   {
-      name: 'bakery shop',
-      img: "/project2.png",
-      url: "https://irenesyr.github.io/react-studio/",
-      path: "/projects/bakey_shop"
-  },
-  {
-      name: 'milktea shop',
-      img: "/project3.png",
-      url: "https://sleepysealion99.github.io/milktea_shop/",
-      path: "/projects/milktea_shop"
-  },
-  {
-      name: 'iterative design',
-      img: "/project4.png",
-      url: "https://calmturtle124.github.io/Iterative/",
+      name: 'iterative design for chowdeck',
+      img: pic3,
       path: "/projects/iterative_design"
+  },
+  {
+      name: 'Development of Milktea Shop',
+      img: pic4,
+      path: "/projects/milktea_shop"
   },
 ];
 
@@ -84,9 +88,9 @@ export default function Projects() {
                                 to={item.path}
                                 tag={Link}
                                 activeStyle={{ fontWeight: "bold" }}
-                                style={{ color: "#a16e83"}}
+                                style={{ color: "#78244c"}}
                                 >
-                                Click for more details!
+                                View More
                             </NavLink>
                               </div>
                               

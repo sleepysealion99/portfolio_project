@@ -1,13 +1,14 @@
 import './project1.css';
-import react,  { useEffect, useState } from 'react';
-// import { Nav, NavLink, NavMenu } from "./NavbarElements";
-// import {Routes, Route, useNavigate, Link} from 'react-router-dom';
-import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-// import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import webPic from "../../images/project1.png";
+import desktop from '../../images/project1/desktop.png';
+import phone from '../../images/project1/phone.png';
+import tablet from '../../images/project1/tablet.png';
+import hifi_desktop from '../../images/project1/hifi_desktop.png';
+import hifi_phone from '../../images/project1/hifi_phone.png';
+import hifi_tablet from '../../images/project1/tablet.png';
 
 export default function Project1() {
 
@@ -25,7 +26,7 @@ export default function Project1() {
                 <a href="https://sleepysealion99.github.io/007museum/" target="_blank" rel="noreferrer" style={{ color: "#78244c", fontSize: "18pt", fontStyle: "italic"}}>link to the redesiged 007 museum website</a>
             </div> */}
             <div className="websitePic" >
-                <img src="/project1.png" style={{width: "100%", height: "100%"}} class="center" onClick={event =>  window.open("https://sleepysealion99.github.io/007museum/")}></img>
+                <img src={webPic} style={{width: "100%", height: "100%"}} class="center" onClick={event =>  window.open("https://sleepysealion99.github.io/007museum/")}></img>
             </div>
             <div className="sectionTitle">
                 Context
@@ -69,28 +70,28 @@ export default function Project1() {
             <div className="section">
                 &emsp;I first do the design with low-fi prototype. You can see my initial designs of the three devices in the following pictures. These prototypes do not include any detail, but only the general frame of my design. <br></br>
                 <figure>
-                    <img src='/project1/desktop.png' class="design"></img>
+                    <img src={desktop} class="design"></img>
                     <figcaption>Initial design for website on desktop</figcaption>
                 </figure>
                 <figure>
-                <img src='/project1/phone.png' class="design"></img>
+                <img src={phone} class="design"></img>
                     <figcaption>Initial design for website on phone</figcaption>
                 </figure>
                 <figure>
-                <img src='/project1/tablet.png' class="design"></img>
+                <img src={tablet} class="design"></img>
                     <figcaption>Initial design for website on tablet</figcaption>
                 </figure>
                 &emsp;I try to make the design of the three devices consistent so that users can easily recognize them as the same website. After deciding on the basic frame of the website design, I start to do the Hi-Fi prototype design.<br></br>
                 <figure>
-                    <img src='/project1/hifi_desktop.png' class="design"></img>
+                    <img src={hifi_desktop} class="design"></img>
                     <figcaption>Final design for website on desktop</figcaption>
                 </figure>
                 <figure>
-                <img src='/project1/hifi_phone.png' class="design"></img>
+                <img src={hifi_phone} class="design"></img>
                     <figcaption>Final design for website on phone</figcaption>
                 </figure>
                 <figure>
-                <img src='/project1/hifi_tablet.png' class="design"></img>
+                <img src={hifi_tablet} class="design"></img>
                     <figcaption>Final design for website on tablet</figcaption>
                 </figure>
                 &emsp;It was quite difficult to decide the position of each section and whether to pertain some of the components. I made hard choices and finally come to this design. I hope it is the best that I can achieve.<br></br>

@@ -49,7 +49,7 @@ export default function Navbar() {
                     Projects
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink
                     to="/contact"
                     tag={Link}
@@ -60,7 +60,7 @@ export default function Navbar() {
                   >
                     Contact Me
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </header>
           </div>
