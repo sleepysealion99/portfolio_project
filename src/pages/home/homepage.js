@@ -20,7 +20,7 @@ export default function Homepage() {
             <div className="content">
             <div className="main">
             <div className="profile">
-                Hi there!<br></br>  I'm Sleepy sealion! <br></br> Software Development Engineer!
+                Hi here!<br></br>  I'm Sleepy Sealion! <br></br> Software Development Engineer!
                 <div className="avatar">
                 <img src={avatar} style={{width: "80%", height: "80%", borderRadius: "60%"}} ></img>
                 </div>
