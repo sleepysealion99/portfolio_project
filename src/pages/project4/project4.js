@@ -78,9 +78,13 @@ export default function Project4() {
                 <img src={wireframe4} class="design"></img>
                 </div>
                 &emsp; The above wireframes are our sketches of the low-fi prototype. We then build hi-fi prototypes based on the above design. Our first hifi prototype design can be accessed below.<br></br><br></br>
+                <div className="window">
                 <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXGZ0CXxWq2tKfjf44pl8n4%2Fchowdeck%3Fnode-id%3D1%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A3" />
+                </div>
             <br></br>&emsp; We then present the above hi-fi design in discussion section and received some critiques about our visual design and functions. We summarize the critiques and reviews and make improvements based on that. Finally we end with the following design. <br></br><br></br>
-            <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsMqvuIOhkLEHZEsPDoZwub%2Fchowdeck-(Copy)%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A3%26node-id%3D1%253A3" />
+            <div className="window">
+            <iframe  width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsMqvuIOhkLEHZEsPDoZwub%2Fchowdeck-(Copy)%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A3%26node-id%3D1%253A3" />
+            </div>
             <br></br>&emsp;After finishing the final design, we update it to a testing website so that anonymous people can use our prototype according to our instructions. They gave us some feedback. We concluded some useful things from the testing results.
             </div>
             <div className="sectionTitle">
