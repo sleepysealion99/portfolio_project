@@ -13,16 +13,16 @@ export default function Main () {
           <BrowserRouter>
             <Routes>
               <Route
-                path="/" element={<Homepage/>}
+                exact path="/" element={<Homepage/>}
               />
               <Route
-                path="/home" element={<Homepage/>}
+                exact path="/home" element={<Homepage/>}
               />
               <Route
-                path="/projects" element={<Projects/>}
+                exact path="/projects" element={<Projects/>}
               />
               <Route
-                path="/conatct" element={<Homepage/>}
+                exact path="/conatct" element={<Homepage/>}
               />
               <Route
                 path="/projects/museum_redesign" element={<Project1/>}
