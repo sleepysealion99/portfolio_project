@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #edb5bf;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.head {
+  width: 100%;
+  height: 15%;
+  font-family: "Papyrus";
+  font-weight: bold;
+  z-index: 20;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content {
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+  }
+
+.main {
+width: 80%;
+display: flex;
+justify-content: space-between;
+flex: 1;
+padding: 30px;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+}
+  
+
+.projectItem {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* a:link {
+  background-color: blanchedalmond;
+  color: hotpink;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  color: green;
+}
+  */
+.Hover {
+  opacity: 0;
+  transition: opacity 350ms;
+  transition-timing-function: ease;
+  padding-top: 50px;
+  background-color: transparent;
+}
+
+.Background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  cursor: pointer;
+  background-size: 100% 100%;
+}
+
+.Paragraph {
+  transform: translate3d(0,50px,0);
+  transition: transform 350ms;
+  transition-timing-function: ease;
+  background-color: transparent;
+  font-size: 1.5em;
+  padding-top: 50px;
+}
+
+.SubTitle {
+  text-transform: uppercase;
+  font-family: "Helvetica";
+  transform: translate3d(0,50px,0);
+  transition: transform 350ms;
+  transition-timing-function: ease;
+  background-color: transparent;
+  color: #99ced3;
+}
+
+.CTA {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.DisplayOver {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: background-color 350ms;
+  transition-timing-function: ease;
+  background-color: transparent;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.BigTitle {
+  text-transform: uppercase;
+  font-family: "Helvetica";
+  color: black;
+  background-color: transparent;
+}
+
+.Background:hover .DisplayOver {
+  background-color: rgba(0,0,0,.5);
+}
+
+.Background:hover .Hover{
+  opacity: 1;
+}
+
+.Background:hover .Paragraph {
+  transform: translate3d(0,0,0);
+}
+
+.Background:hover .SubTitle{
+  transform: translate3d(0,0,0);
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} 
+
+.profile {
+  width: 100%;
+  padding: 20px;
+  color: #78244c;
+  text-align: center;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* 
+.Background{
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+} */
+
+.footer {
+  width: 100%;
+  color: #a16e83;
+  padding-left: 10px;
+}
+
+h1 {
+  margin-left: 50px;
+  margin-top: 20px
+}
+
+p {
+  line-height: 200%;
+  font-size: 32pt;
+  font-family: Apple Chancery, cursive;
+}
+
+.division {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.projectsTitle {
+  padding: 30px;
+  color:#78244c;
+  font-family: Marker Felt, fantasy;
+  font-size: 5em;
+  text-align: center;
+}
+

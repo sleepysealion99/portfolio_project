@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #edb5bf;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.head {
+  width: 100%;
+  height: 15%;
+  font-family: "Papyrus";
+  font-weight: bold;
+  z-index: 20;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  width: 100%;
+  height: 85%;
+  overflow: scroll;
+}
+
+.main {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.websiteLink {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 2.5em;
+  font-family: Papyrus;
+  color: #78244c;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section {
+  font-size: 1.5em;
+  font-family: Comic Sans MS;
+  padding-bottom: 50px;
+  color: #78244c;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectsTitle {
+  font-size: 4em;
+}
+
+.websitePic {
+  padding-bottom: 50px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.problemTitle {
+  font-size: 30px;
+  font-family: Comic Sans MS;
+}
+
+.problemContent {
+  font-size: 24px;
+  font-family: Comic Sans MS;
+  padding-bottom: 50px;
+}
+
+
+.design {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+figure {
+  float: right;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
