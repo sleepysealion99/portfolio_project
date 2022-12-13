@@ -19,16 +19,16 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route
-                exact path="/" element={<Homepage/>}
+                path="/" element={<Homepage/>}
               />
               <Route
-                exact path="/home" element={<Homepage/>}
+                path="/home" element={<Homepage/>}
               />
               <Route
-                exact path="/projects" element={<Projects/>}
+                path="/projects" element={<Projects/>}
               />
               <Route
-                exact path="/conatct" element={<Homepage/>}
+                path="/conatct" element={<Homepage/>}
               />
               <Route
                 path="/projects/museum_redesign" element={<Project1/>}
@@ -42,7 +42,7 @@ function App() {
               <Route
                 path="/projects/iterative_design" element={<Project4/>}
               />
-              <Route path="*" element={<Navigate to="/"/>} />
+              <Route path="*" element={<Homepage/>} />
             </Routes>
           </BrowserRouter>
         </div>

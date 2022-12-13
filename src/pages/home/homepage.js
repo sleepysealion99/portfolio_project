@@ -8,6 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import Navbar from '../../components/navbar';
 import Footer from '../../components/footer';
+import avatar from '../../images/avatar.JPG';
 
 export default function Homepage() {
     return (
@@ -21,7 +22,7 @@ export default function Homepage() {
             <div className="profile">
                 Hi there!<br></br>  I'm Sleepy sealion! <br></br> Software Development Engineer!
                 <div className="avatar">
-                <img src="/avatar.JPG" style={{width: "40%", height: "40%", borderRadius: "60%"}} ></img>
+                <img src={avatar} style={{width: "80%", height: "80%", borderRadius: "60%"}} ></img>
                 </div>
 
             <div className="division">

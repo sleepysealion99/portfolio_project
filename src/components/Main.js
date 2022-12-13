@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, HashRouter, Routes, BrowserRouter } from "react-router-dom";
+import { Route, HashRouter, Routes, BrowserRouter, Navigate } from "react-router-dom";
 import Homepage from "../pages/home/homepage";
 import Projects from "../pages/projects/projects";
 import Project1 from "../pages/project1/project1";
@@ -36,6 +36,7 @@ export default function Main () {
               <Route
                 path="/projects/iterative_design" element={<Project4/>}
               />
+              <Route path="*" element={<Navigate to="/"/>} />
             </Routes>
           </BrowserRouter>
         </div>
