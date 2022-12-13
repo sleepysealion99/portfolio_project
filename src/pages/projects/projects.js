@@ -2,8 +2,8 @@ import './projects.css';
 import react,  { useEffect, useState } from 'react';
 // import { Nav, NavLink, NavMenu } from "./NavbarElements";
 // import {Routes, Route, useNavigate, Link} from 'react-router-dom';
-import {BrowserRouter as Router, Link, Route, Switch, Routes, useHistory} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import { NavLink, Link } from "react-router-dom";
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import Navbar from '../../components/navbar';
@@ -15,7 +15,7 @@ const projectArr = [
       name: '007 Museum',
       img: "/project1.png",
       url: "https://sleepysealion99.github.io/redesign/",
-      path: "/projects/museum_redesign"
+      path: '/projects/museum_redesign'
   },
   {
       name: 'bakery shop',
@@ -69,7 +69,7 @@ export default function Projects() {
           <div className="projects">
               {projectData.map((item, index) => {
               return (
-                  <div className="projectItem" key={index} onClick={event =>  window.location.href=item.path}>
+                  <div className="projectItem" key={index} >
                       
                       <div className="Background" style={{
                           backgroundImage: `url(${item.img})`
@@ -80,8 +80,16 @@ export default function Projects() {
                               <h2>{item.name}</h2>
                               </div>
                               <div className="Paragraph">
+                              <NavLink
+                                to={item.path}
+                                tag={Link}
+                                activeStyle={{ fontWeight: "bold" }}
+                                style={{ color: "#a16e83"}}
+                                >
                                 Click for more details!
+                            </NavLink>
                               </div>
+                              
                           </div>
                           </div>
                       </div>
