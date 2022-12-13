@@ -30,9 +30,6 @@ function App() {
                 path="/projects" exact element={<Projects/>}
               />
               <Route
-                path="/conatct" exact element={<Homepage/>}
-              />
-              <Route
                 path="/projects/museum_redesign" element={<Project1/>}
               />
               <Route
