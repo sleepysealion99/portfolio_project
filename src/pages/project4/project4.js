@@ -65,6 +65,13 @@ export default function Project4() {
                 <img src='/project4/sketch1p2.jpeg' class="design"></img>
                 <img src='/project4/sketch1p3.jpeg' class="design"></img>
                 </div>
+                <br></br>&emsp; After dicussion, we make improvements based on the original designs and start to build low-fi wireframes. We designed four pages at first, including homepage, restaurant page, profile page and checkout page.<br></br><br></br>
+                <div className="wireframe">
+                <img src='/project4/wf1.png' class="design"></img>
+                <img src='/project4/wf2.png' class="design"></img>
+                <img src='/project4/wf3.png' class="design"></img>
+                <img src='/project4/wf4.png' class="design"></img>
+                </div>
             </div>
             <div className="sectionTitle">
                 Conclusion
